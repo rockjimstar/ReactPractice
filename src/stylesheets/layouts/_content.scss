@@ -1,0 +1,28 @@
+.main-container{
+	max-width: 100%;
+	margin: 3.5rem 0 3.5rem 0; 
+	position: relative;
+	z-index: 1;
+
+	.top-story{
+		margin: 0 0 1.5rem 0;
+	}
+
+	.img-container{
+		max-width: 100%;
+		position: relative;
+		padding: 0 0.5rem 0 0.5rem;
+
+		img{
+			min-width: 100%;
+			max-width: 100%;
+			z-index: 2;
+		}
+
+	}
+
+	hr{
+		margin: 0 0.5rem 0 0.5rem;
+	}
+	
+}
